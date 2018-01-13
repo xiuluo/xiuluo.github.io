@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shura.eu.org/music/index.html</loc>
+    <loc>https://shura.eu.org/about/index.html</loc>
     
-    <lastmod>2018-01-13T07:44:10.000Z</lastmod>
+    <lastmod>2018-01-13T08:32:55.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://shura.eu.org/404.html</loc>
     
-    <lastmod>2018-01-13T07:16:02.000Z</lastmod>
+    <lastmod>2018-01-13T08:25:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/music/index.html</loc>
+    
+    <lastmod>2018-01-13T07:44:10.000Z</lastmod>
     
   </url>
   
