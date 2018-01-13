@@ -65,7 +65,7 @@
 
 
 
-  <meta name="keywords" content="hexo,next-theme," />
+  <meta name="keywords" content="shura, IT, 互联网" />
 
 
 
@@ -80,21 +80,14 @@
 
 
 
-<meta name="description" content="前言  用了一下午的时间又又将网站转移到了github page上。现在hexo的生态圈很成熟，动态博客的一些功能都能找到相应的插件替代，甚至连后台管理的插件都有了。   主机github pages配合cloudflare CDN应该能持续很久不用迁移网站。虽然因为科学上网的需求我有一些海外vps，但是回顾一下去年gfw的疯狂认证，还是低调使用吧。 域名eu.org从1996年开始提供免费域名服">
-<meta name="keywords" content="hexo,next-theme">
-<meta property="og:type" content="article">
-<meta property="og:title" content="又双叒叕迁移网站了">
-<meta property="og:url" content="https://shura.eu.org/2018/01/13/migration-again/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="404">
+<meta property="og:url" content="https://shura.eu.org/404.html">
 <meta property="og:site_name" content="Shura&#39;s自留地">
-<meta property="og:description" content="前言  用了一下午的时间又又将网站转移到了github page上。现在hexo的生态圈很成熟，动态博客的一些功能都能找到相应的插件替代，甚至连后台管理的插件都有了。   主机github pages配合cloudflare CDN应该能持续很久不用迁移网站。虽然因为科学上网的需求我有一些海外vps，但是回顾一下去年gfw的疯狂认证，还是低调使用吧。 域名eu.org从1996年开始提供免费域名服">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://ws1.sinaimg.cn/large/77b38843ly1fnf5jqsyxej212c0jj76e.jpg">
-<meta property="og:image" content="https://ws1.sinaimg.cn/large/77b38843ly1fnf5lbvecgj20ws0mo0ti.jpg">
-<meta property="og:updated_time" content="2018-01-13T10:43:14.000Z">
+<meta property="og:updated_time" content="2018-01-13T09:15:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="又双叒叕迁移网站了">
-<meta name="twitter:description" content="前言  用了一下午的时间又又将网站转移到了github page上。现在hexo的生态圈很成熟，动态博客的一些功能都能找到相应的插件替代，甚至连后台管理的插件都有了。   主机github pages配合cloudflare CDN应该能持续很久不用迁移网站。虽然因为科学上网的需求我有一些海外vps，但是回顾一下去年gfw的疯狂认证，还是低调使用吧。 域名eu.org从1996年开始提供免费域名服">
-<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/77b38843ly1fnf5jqsyxej212c0jj76e.jpg">
+<meta name="twitter:title" content="404">
 
 
 
@@ -122,7 +115,7 @@
 
 
 
-  <link rel="canonical" href="https://shura.eu.org/2018/01/13/migration-again/"/>
+  <link rel="canonical" href="https://shura.eu.org/404.html"/>
 
 
 
@@ -363,6 +356,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/08/03/Bash-On-Windows-beta版食用笔记/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2016/08/03/Bash-On-Windows-beta版食用笔记/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -887,8 +890,8 @@ PS：这个子系统的文件系统和Windows是融合的，进入bash后默认�
 <!-- LOCAL: You can save these files to your site and update links -->
     
         
-        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
     
 <!-- END LOCAL -->
 
@@ -902,17 +905,19 @@ PS：这个子系统的文件系统和Windows是融合的，进入bash后默认�
     
       <script type="text/javascript">
       function renderGitment(){
-        var gitment = new Gitment({
+        var gitment = new Gitmint({
             id: window.location.pathname,
-            owner: 'xiuluo# MUST HAVE, Your Github Username',
-            repo: 'Gitment# MUST HAVE, The name of the repo you use to store Gitment comments',
+            owner: 'xiuluo',
+            repo: 'Gitment',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
             
-                client_secret: '450069be5c489f654400b240dec58a068c26de84# EITHER this or proxy_gateway, Github access secret token for the Gitment',
+                client_secret: '450069be5c489f654400b240dec58a068c26de84',
             
-                client_id: 'e0cd8f38c2db73db5624# MUST HAVE, Github client id for the Gitment'
+                client_id: 'e0cd8f38c2db73db5624'
             }});
         gitment.render('gitment-container');
       }
