@@ -121,7 +121,7 @@
 
 
 
-  <title>���� | Shura's自留地</title>
+  <title>分类 | Shura's自留地</title>
   
 
 
@@ -274,7 +274,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">����</h2>
+	<h2 class="post-title" itemprop="name headline">分类</h2>
 
 
 
@@ -308,6 +308,13 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
 
   
 
@@ -619,6 +626,48 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname,
+            owner: 'xiuluo# MUST HAVE, Your Github Username',
+            repo: 'Gitment# MUST HAVE, The name of the repo you use to store Gitment comments',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '450069be5c489f654400b240dec58a068c26de84# EITHER this or proxy_gateway, Github access secret token for the Gitment',
+            
+                client_id: 'e0cd8f38c2db73db5624# MUST HAVE, Github client id for the Gitment'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
