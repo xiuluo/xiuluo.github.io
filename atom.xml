@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shura.eu.org/"/>
-  <updated>2018-01-13T08:46:43.856Z</updated>
+  <updated>2018-01-13T10:18:38.486Z</updated>
   <id>https://shura.eu.org/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又双叒叕迁移网站了</title>
+    <link href="https://shura.eu.org/2018/01/13/migration-again/"/>
+    <id>https://shura.eu.org/2018/01/13/migration-again/</id>
+    <published>2018-01-13T09:18:00.000Z</published>
+    <updated>2018-01-13T10:18:38.486Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>  用了一下午的时间又又将网站转移到了github page上。现在hexo的生态圈很成熟，动态博客的一些功能都能找到相应的插件替代，甚至连<a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">后台管理</a>的插件都有了。想想过去折腾网站的经历，还是海外的免费服务靠谱一些。</p><h2 id="主机篇"><a href="#主机篇" class="headerlink" title="主机篇"></a>主机篇</h2><p>github pages配合cloudflare CDN应该能持续很久不用迁移网站。虽然因为科学上网的需求我有一些海外vps，但是回顾一下去年gfw的疯狂认证，还是低调使用吧。</p><h2 id="域名篇"><a href="#域名篇" class="headerlink" title="域名篇"></a>域名篇</h2><p>eu.org从1996年开始提供免费域名服务，虽然是二级域名，可是能够被搜索引擎收录，已经很好了。不知道为什么，于2015年被gfw认证，不过可以用https+HSTS+HSTS preload list完美解决。</p><h2 id="主题篇"><a href="#主题篇" class="headerlink" title="主题篇"></a>主题篇</h2><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">next主题</a>比我16年用的时候功能丰富多了，主要集成了很多第三方服务，让静态博客也有了动态博客的体验，当然这些第三方服务也是免费的。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>博客能提供一个安安静静写东西的地方即可，不用太多折腾，博客内容才是关键。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;  用了一下午的时间又又将网站转移到了github page上。现在hexo的生态圈很成熟，动态博客的一些功能都能找到相应的插件替代，甚至连
+      
+    
+    </summary>
+    
+      <category term="站点" scheme="https://shura.eu.org/categories/%E7%AB%99%E7%82%B9/"/>
+    
+    
+      <category term="hexo" scheme="https://shura.eu.org/tags/hexo/"/>
+    
+      <category term="next-theme" scheme="https://shura.eu.org/tags/next-theme/"/>
+    
+  </entry>
   
   <entry>
     <title>路由器上连接Windows VPN提示MTU过小的解放方案</title>
