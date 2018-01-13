@@ -5,9 +5,9 @@
   <subtitle>学习，记录，分享</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://shura.eu.org/"/>
   <updated>2018-01-13T04:13:51.533Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://shura.eu.org/</id>
   
   <author>
     <name>Shura</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/01/13/hello-world/"/>
-    <id>http://yoursite.com/2018/01/13/hello-world/</id>
+    <link href="https://shura.eu.org/2018/01/13/hello-world/"/>
+    <id>https://shura.eu.org/2018/01/13/hello-world/</id>
     <published>2018-01-13T04:13:51.533Z</published>
     <updated>2018-01-13T04:13:51.533Z</updated>
     
