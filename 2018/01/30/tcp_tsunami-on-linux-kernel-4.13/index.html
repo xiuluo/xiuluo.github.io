@@ -419,7 +419,7 @@
       
 
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        所谓的bbr魔改版最初是由hostloc论坛的用户Yankee发布的。因为原贴设置了阅读权限，所以我只能找到<a href="https://www.91yun.co/archives/16781" target="_blank" rel="noopener">转帖</a>和其修改的<a href="https://gist.githubusercontent.com/anonymous/ba338038e799eafbba173215153a7f3a/raw/55ff1e45c97b46f12261e07ca07633a9922ad55d/tcp_tsunami.c" target="_blank" rel="noopener">源码</a>。该魔改版通过修改bbr中的一些参数使该拥塞协议较之Linux kernel中的协议更加“暴力”(但与此同时也破坏了tcp的公平性，如果这样做的人多了，反而会引起更加严重的网络拥塞)，解决拥塞的效果更加明显。但是该修改版无法在Linux kernel 4.13+上编译，需要使用<a href="https://github.com/liberal-boy/tcp_tsunami" target="_blank" rel="noopener">另一个修改版</a>。</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​        所谓的bbr魔改版最初是由hostloc论坛的用户Yankee发布的。因为原贴设置了阅读权限，所以我只能找到<a href="https://www.91yun.co/archives/16781" target="_blank" rel="noopener">转帖</a>和其修改的<a href="https://gist.githubusercontent.com/anonymous/ba338038e799eafbba173215153a7f3a/raw/55ff1e45c97b46f12261e07ca07633a9922ad55d/tcp_tsunami.c" target="_blank" rel="noopener">源码</a>。该魔改版通过修改bbr中的一些参数,使得该拥塞协议较之Linux kernel中的协议更加“暴力”(但与此同时也破坏了tcp的公平性，如果这样做的人多了，反而会引起更加严重的网络拥塞)，解决拥塞的效果更加明显。然而该修改版无法在Linux kernel 4.13+上编译，需要使用<a href="https://github.com/liberal-boy/tcp_tsunami" target="_blank" rel="noopener">另一个修改版</a>。</p>
 <h1 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h1><ol>
 <li>使用root权限在shell里依次输入一下命令，编译内核模块并插入内核，启用新的拥塞协议</li>
 </ol>
