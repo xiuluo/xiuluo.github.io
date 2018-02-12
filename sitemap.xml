@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shura.eu.org/2018/01/30/tcp_tsunami-on-linux-kernel-4.13/</loc>
+    
+    <lastmod>2018-02-12T14:06:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/2016/03/11/%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%5D%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83-%E6%95%B0%E5%AD%97%E4%B8%89%E8%A7%92%E5%BD%A2/</loc>
     
     <lastmod>2018-01-30T09:11:24.768Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://shura.eu.org/baidu_verify_ueG2nlU6kk.html</loc>
     
     <lastmod>2018-01-30T07:55:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/2018/01/30/tcp_tsunami-on-linux-kernel-4.13/</loc>
-    
-    <lastmod>2018-01-30T07:29:29.803Z</lastmod>
     
   </url>
   
