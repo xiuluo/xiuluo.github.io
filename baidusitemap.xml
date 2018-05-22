@@ -3,6 +3,28 @@
 
 
     
+  <url>
+    <loc>https://shura.eu.org/2018/05/22/Debian%E4%B8%8Bkoolproxy%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2018-05-22T04:01:22.385Z</lastmod>
+    <data>
+        <display>
+        <title>sha256 hash算法的输出是否是均匀的？</title>
+        <pubTime>2018-05-22T03:59:22.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="https://shura.eu.org/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
   <url>
@@ -258,6 +280,31 @@
 
     
   <url>
+    <loc>https://shura.eu.org/2016/08/06/Ubuntu%E4%B8%8AChrome%E9%97%AA%E5%B1%8F%E7%97%87%E7%8A%B6%E7%9A%84%E7%BC%93%E8%A7%A3%E4%B9%8B%E6%97%85/</loc>
+    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu上Chrome闪屏症状的缓解之旅</title>
+        <pubTime>2016-08-06T09:14:05.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+        <tag>Chrome</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
+          
+             
+              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://shura.eu.org/2016/07/27/%E9%95%BF%E5%9F%8E%E5%AE%BD%E5%B8%A6%E7%AD%89%E5%B0%8F%E8%BF%90%E8%90%A5%E5%95%86PPPoE%E9%A2%91%E7%B9%81%E6%8E%89%E7%BA%BF%E9%87%8D%E8%BF%9E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     <lastmod>2018-01-13T08:46:43.855Z</lastmod>
     <data>
@@ -278,46 +325,21 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/04/09/Windows%E9%85%8D%E7%BD%AECygwin%E6%88%96msys2%E6%A8%A1%E6%8B%9FLinux%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
+    <loc>https://shura.eu.org/2016/08/10/Android-Studio-gradle%E4%BB%A3%E7%90%86https%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     <lastmod>2018-01-13T08:46:43.855Z</lastmod>
     <data>
         <display>
-        <title>Windows配置Cygwin或msys2模拟Linux终端环境</title>
-        <pubTime>2016-04-09T08:41:06.000Z</pubTime>
+        <title>Android Studio gradle代理https失败的解决办法</title>
+        <pubTime>2016-08-10T10:15:46.000Z</pubTime>
         
-        <tag>linux</tag>
+        <tag>Android</tag>
          
-        <tag>cygwin</tag>
+        <tag>gradle</tag>
          
          
            
              
-              <breadCrumb title="笔记" url="https://shura.eu.org/categories/%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2016/08/06/Ubuntu%E4%B8%8AChrome%E9%97%AA%E5%B1%8F%E7%97%87%E7%8A%B6%E7%9A%84%E7%BC%93%E8%A7%A3%E4%B9%8B%E6%97%85/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu上Chrome闪屏症状的缓解之旅</title>
-        <pubTime>2016-08-06T09:14:05.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
-          
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
+              <breadCrumb title="Android" url="https://shura.eu.org/categories/Android/"/>
           
         </display>
     </data>
@@ -369,21 +391,21 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/08/10/Android-Studio-gradle%E4%BB%A3%E7%90%86https%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <loc>https://shura.eu.org/2016/04/09/Windows%E9%85%8D%E7%BD%AECygwin%E6%88%96msys2%E6%A8%A1%E6%8B%9FLinux%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2018-01-13T08:46:43.855Z</lastmod>
     <data>
         <display>
-        <title>Android Studio gradle代理https失败的解决办法</title>
-        <pubTime>2016-08-10T10:15:46.000Z</pubTime>
+        <title>Windows配置Cygwin或msys2模拟Linux终端环境</title>
+        <pubTime>2016-04-09T08:41:06.000Z</pubTime>
         
-        <tag>Android</tag>
+        <tag>linux</tag>
          
-        <tag>gradle</tag>
+        <tag>cygwin</tag>
          
          
            
              
-              <breadCrumb title="Android" url="https://shura.eu.org/categories/Android/"/>
+              <breadCrumb title="笔记" url="https://shura.eu.org/categories/%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>

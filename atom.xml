@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shura.eu.org/"/>
-  <updated>2018-05-15T12:11:38.888Z</updated>
+  <updated>2018-05-22T04:01:22.385Z</updated>
   <id>https://shura.eu.org/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sha256 hash算法的输出是否是均匀的？</title>
+    <link href="https://shura.eu.org/2018/05/22/Debian%E4%B8%8Bkoolproxy%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/"/>
+    <id>https://shura.eu.org/2018/05/22/Debian下koolproxy一键安装脚本/</id>
+    <published>2018-05-22T03:59:22.000Z</published>
+    <updated>2018-05-22T04:01:22.385Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Tue May 22 2018 12:01:42 GMT+0800 (CST) --><h1>前言</h1><p>在vps上安装广告过滤软件配合shadowsocks，就可以实现代理+广告过滤。考虑到安全问题，只过滤HTTP内容，否则还得安装koolproxy的自定义证书，有安全隐患。</p><p>第一次运行脚本会安装koolproxy，以后再运行脚本就只更新规则了。防火墙规则重启之后失效，所以重启后需要再次运行脚本。</p><h1>一键安装</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget -O koolproxy.sh https://raw.githubusercontent.com/xiuluo/shell/master/koolproxy.sh</span><br><span class="line">bash koolproxy.sh</span><br></pre></td></tr></table></figure><h1>自动更新</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br><span class="line"><span class="comment"># 每星期（周日凌晨4：22）更新</span></span><br><span class="line">22 4 * * 0 /root/koolproxy.sh</span><br></pre></td></tr></table></figure><h1>卸载</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pkill -9 koolproxy</span><br><span class="line">rm -R koolproxy</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h1>源代码</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env bash</span></span><br><span class="line">PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/<span class="built_in">local</span>/bin:/usr/<span class="built_in">local</span>/sbin:~/bin</span><br><span class="line"><span class="built_in">export</span> PATH</span><br><span class="line">folder=<span class="string">"/root/koolproxy"</span></span><br><span class="line"><span class="comment">#install</span></span><br><span class="line"><span class="keyword">if</span> [ ! -d <span class="string">"<span class="variable">$folder</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">  mkdir <span class="variable">$folder</span></span><br><span class="line">  mkdir <span class="variable">$folder</span>/data</span><br><span class="line">  mkdir <span class="variable">$folder</span>/data/rules</span><br><span class="line">  <span class="built_in">cd</span> <span class="variable">$folder</span>/data/rules</span><br><span class="line">  wget https://kprule.com/koolproxy.txt</span><br><span class="line">  wget https://kprule.com/kp.dat</span><br><span class="line">  wget https://kprule.com/daily.txt</span><br><span class="line">  wget https://kprule.com/user.txt</span><br><span class="line">  <span class="built_in">cd</span> <span class="variable">$folder</span></span><br><span class="line">  wget -O koolproxy https://koolproxy.com/downloads/x86_64</span><br><span class="line">  chmod +x koolproxy</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="comment">#update</span></span><br><span class="line"><span class="keyword">if</span> [ -d <span class="string">"<span class="variable">$folder</span>"</span> ]; <span class="keyword">then</span></span><br><span class="line">  pkill -9 koolproxy</span><br><span class="line">  <span class="built_in">cd</span> <span class="variable">$folder</span>/data/rules</span><br><span class="line">  rm koolproxy.txt  kp.dat daily.txt</span><br><span class="line">  wget https://kprule.com/koolproxy.txt</span><br><span class="line">  wget https://kprule.com/kp.dat</span><br><span class="line">  wget https://kprule.com/daily.txt</span><br><span class="line">  <span class="built_in">cd</span> <span class="variable">$folder</span></span><br><span class="line">  rm koolproxy</span><br><span class="line">  wget -O koolproxy https://koolproxy.com/downloads/x86_64</span><br><span class="line">  chmod +x koolproxy</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">"1"</span> &gt; /proc/sys/net/ipv4/ip_forward</span><br><span class="line">iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000</span><br><span class="line"><span class="built_in">cd</span> <span class="variable">$folder</span></span><br><span class="line">./koolproxy &gt;  <span class="variable">$folder</span>/data/koolproxy.log 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue May 22 2018 12:01:42 GMT+0800 (CST) --&gt;&lt;h1&gt;前言&lt;/h1&gt;&lt;p&gt;在vps上安装广告过滤软件配合shadowsocks，就可以实现代理+广告过滤。考虑到安全问题，只过滤HTTP内容，否则还得安装koo
+      
+    
+    </summary>
+    
+      <category term="linux" scheme="https://shura.eu.org/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://shura.eu.org/tags/linux/"/>
+    
+      <category term="shell" scheme="https://shura.eu.org/tags/shell/"/>
+    
+  </entry>
   
   <entry>
     <title>sha256 hash算法的输出是否是均匀的？</title>
@@ -534,33 +561,6 @@
       <category term="蓝桥杯" scheme="https://shura.eu.org/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
     
       <category term="oj" scheme="https://shura.eu.org/tags/oj/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php7.0与Mysql5.7的连接使用</title>
-    <link href="https://shura.eu.org/2016/03/09/php7%E4%B8%8EMysql5.7%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%BD%BF%E7%94%A8/"/>
-    <id>https://shura.eu.org/2016/03/09/php7与Mysql5.7的连接使用/</id>
-    <published>2016-03-09T13:55:01.000Z</published>
-    <updated>2018-01-13T08:46:43.857Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Wed May 16 2018 11:30:32 GMT+0800 (CST) --><p>我这个博客用的是linuxeye制作的lnmp安装脚本搭建的，因为用于个人折腾不用于生产环境，所以打算折腾一下，于是配了个php7与mysql5.7的环境，还启用了https协议，但是因为这个腾讯云的VPS配置太低，无法成功编译mysql，于是我只能用官方的deb包直接安装二进制文件，但是安装完成之后，发现php一直无法连接mysql，研究了半天发现是php_mysqli扩展的配置问题，使用deb安装的mysql5.7社区版的sock链接默认为/var/run/mysqld/mysqld.sock，所以需要修改php.ini：</p><pre lang="bash">mysqli.default_socket = /var/run/mysqld/mysqld.sock</pre><p>然后重启php-fpm服务即可。</p><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Wed May 16 2018 11:30:32 GMT+0800 (CST) --&gt;&lt;p&gt;我这个博客用的是linuxeye制作的lnmp安装脚本搭建的，因为用于个人折腾不用于生产环境，所以打算折腾一下，于是配了个php7与mysql5.7的环境，
-      
-    
-    </summary>
-    
-      <category term="教程" scheme="https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-      <category term="mysql" scheme="https://shura.eu.org/tags/mysql/"/>
-    
-      <category term="php" scheme="https://shura.eu.org/tags/php/"/>
     
   </entry>
   
