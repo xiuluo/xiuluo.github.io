@@ -4,8 +4,54 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2018/05/15/sha256%E6%95%A3%E5%88%97%E7%AE%97%E6%B3%95%E7%9A%84%E8%BE%93%E5%87%BA%E6%98%AF%E5%90%A6%E6%98%AF%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83%E7%9A%84/</loc>
-    <lastmod>2018-05-22T04:07:07.834Z</lastmod>
+    <loc>https://shura.eu.org/2018/05/22/%E5%9C%A8Ubuntu-18.04-LTS%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81IPv6%E5%9C%B0%E5%9D%80/</loc>
+    <lastmod>2018-05-23T01:18:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>在Ubuntu 18.04 LTS 服务器上配置静态IPv6地址</title>
+        <pubTime>2018-05-22T14:11:45.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>ipv6</tag>
+         
+        <tag>ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="https://shura.eu.org/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://shura.eu.org/2018/05/22/Debian%E4%B8%8Bkoolproxy%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2018-05-23T01:18:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Debian下koolproxy一键安装脚本</title>
+        <pubTime>2018-05-22T03:59:22.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="https://shura.eu.org/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://shura.eu.org/2018/05/15/sha256%E6%95%A3%E5%88%97%E7%AE%97%E6%B3%95%E7%9A%84%E8%BE%93%E5%87%BA%E6%98%AF%E5%90%A6%E6%98%AF%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83%E7%9A%84%EF%BC%9F/</loc>
+    <lastmod>2018-05-23T01:18:13.000Z</lastmod>
     <data>
         <display>
         <title>sha256 hash算法的输出是否是均匀的？</title>
@@ -28,32 +74,8 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2018/05/22/Debian%E4%B8%8Bkoolproxy%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2018-05-22T04:06:28.709Z</lastmod>
-    <data>
-        <display>
-        <title>Debian下koolproxy一键安装脚本</title>
-        <pubTime>2018-05-22T03:59:22.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="https://shura.eu.org/categories/linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
-    <loc>https://shura.eu.org/2018/03/17/compile-and-deploy-binary-files-online-via-travis-ci/</loc>
-    <lastmod>2018-03-17T15:36:23.436Z</lastmod>
+    <loc>https://shura.eu.org/2018/03/17/%E5%88%A9%E7%94%A8travis-ci%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%AF%91%E5%B9%B6%E5%8F%91%E5%B8%83%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2018-05-23T01:18:03.000Z</lastmod>
     <data>
         <display>
         <title>利用travis-ci在线编译并发布二进制文件</title>
@@ -61,12 +83,14 @@
         
         <tag>linux</tag>
          
+        <tag>github</tag>
+         
         <tag>travis-ci</tag>
          
          
            
              
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
+              <breadCrumb title="github" url="https://shura.eu.org/categories/github/"/>
           
         </display>
     </data>
@@ -74,14 +98,16 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2018/03/09/quickly-check-the-integrity-of-video-files-inside-a-directory-with-ffmpeg/</loc>
-    <lastmod>2018-03-09T12:03:22.589Z</lastmod>
+    <loc>https://shura.eu.org/2018/03/09/%E7%94%A8ffmpeg%E5%BF%AB%E9%80%9F%E6%A0%A1%E9%AA%8C%E7%9B%AE%E5%BD%95%E5%86%85%E7%9A%84%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E7%9A%84%E5%AE%8C%E6%95%B4%E6%80%A7/</loc>
+    <lastmod>2018-05-23T01:11:12.000Z</lastmod>
     <data>
         <display>
         <title>用ffmpeg快速校验目录内的视频文件的完整性</title>
         <pubTime>2018-03-09T11:56:23.000Z</pubTime>
         
         <tag>linux</tag>
+         
+        <tag>ubuntu</tag>
          
         <tag>ffmpeg</tag>
          
@@ -96,16 +122,16 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2018/01/30/tcp_tsunami-on-linux-kernel-4.13/</loc>
-    <lastmod>2018-02-12T14:06:52.000Z</lastmod>
+    <loc>https://shura.eu.org/2018/01/30/%E5%9C%A8Linux-kernel-4.13%E4%B8%8A%E4%BD%BF%E7%94%A8BBR%E9%AD%94%E6%94%B9%E7%89%88/</loc>
+    <lastmod>2018-05-23T01:04:35.000Z</lastmod>
     <data>
         <display>
         <title>在Linux kernel 4.13上使用BBR魔改版</title>
         <pubTime>2018-01-30T07:09:23.000Z</pubTime>
         
-        <tag>ubuntu</tag>
-         
         <tag>linux</tag>
+         
+        <tag>ubuntu</tag>
          
         <tag>bbr</tag>
          
@@ -120,41 +146,16 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/03/11/%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%5D%E7%AE%97%E6%B3%95%E8%AE%AD%E7%BB%83-%E6%95%B0%E5%AD%97%E4%B8%89%E8%A7%92%E5%BD%A2/</loc>
-    <lastmod>2018-01-30T09:11:24.768Z</lastmod>
-    <data>
-        <display>
-        <title>[蓝桥杯]算法训练-数字三角形</title>
-        <pubTime>2016-03-11T10:36:18.000Z</pubTime>
-        
-        <tag>蓝桥杯</tag>
-         
-        <tag>oj</tag>
-         
-         
-           
-             
-              <breadCrumb title="OJ" url="https://shura.eu.org/categories/OJ/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-  <url>
-    <loc>https://shura.eu.org/2018/01/13/migration-again/</loc>
-    <lastmod>2018-01-13T10:43:14.000Z</lastmod>
+    <loc>https://shura.eu.org/2018/01/10/%E5%8F%88%E5%8F%8C%E5%8F%92%E5%8F%95%E8%BF%81%E7%A7%BB%E7%BD%91%E7%AB%99%E4%BA%86/</loc>
+    <lastmod>2018-05-23T00:56:36.000Z</lastmod>
     <data>
         <display>
         <title>又双叒叕迁移网站了</title>
-        <pubTime>2018-01-13T09:18:00.000Z</pubTime>
+        <pubTime>2018-01-10T09:18:19.000Z</pubTime>
         
         <tag>hexo</tag>
          
-        <tag>next-theme</tag>
+        <tag>github-pages</tag>
          
          
            
@@ -166,172 +167,16 @@
     </url>
 
     
-    
   <url>
-    <loc>https://shura.eu.org/2016/03/09/php7%E4%B8%8EMysql5.7%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2018-01-13T08:46:43.857Z</lastmod>
+    <loc>https://shura.eu.org/2016/08/03/Android-Studio-gradle%E4%BB%A3%E7%90%86https%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <lastmod>2018-05-23T00:13:55.000Z</lastmod>
     <data>
         <display>
-        <title>php7.0与Mysql5.7的连接使用</title>
-        <pubTime>2016-03-09T13:55:01.000Z</pubTime>
+        <title>Android Studio gradle����httpsʧ�ܵĽ���취</title>
+        <pubTime>2016-08-03T12:41:34.000Z</pubTime>
         
-        <tag>mysql</tag>
+        <tag>Linux</tag>
          
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="教程" url="https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2016/08/24/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%9B%B2%E6%8A%98%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2018-01-13T08:46:43.856Z</lastmod>
-    <data>
-        <display>
-        <title>记一次曲折的系统更新</title>
-        <pubTime>2016-08-24T13:03:24.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>linux</tag>
-         
-        <tag>腾讯云</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
-          
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2017/05/24/%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%8A%E8%BF%9E%E6%8E%A5Windows%20VPN%E6%8F%90%E7%A4%BAMTU%E8%BF%87%E5%B0%8F%E7%9A%84%E8%A7%A3%E6%94%BE%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2018-01-13T08:46:43.856Z</lastmod>
-    <data>
-        <display>
-        <title>路由器上连接Windows VPN提示MTU过小的解放方案</title>
-        <pubTime>2017-05-24T08:46:06.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
-          
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2017/03/30/%5B%E8%93%9D%E6%A1%A5%E6%9D%AF%5D2017%E5%B9%B4%E6%A8%A1%E6%8B%9F%E8%B5%9B-%E6%8E%92%E5%88%97%E5%BA%8F%E6%95%B0/</loc>
-    <lastmod>2018-01-13T08:46:43.856Z</lastmod>
-    <data>
-        <display>
-        <title>[蓝桥杯]2017年模拟赛-排列序数</title>
-        <pubTime>2017-03-30T07:22:21.000Z</pubTime>
-        
-        <tag>蓝桥杯</tag>
-         
-         
-           
-             
-              <breadCrumb title="OJ" url="https://shura.eu.org/categories/OJ/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2017/03/29/Lex%E5%92%8CYacc%E5%9C%A8Windows%E4%B8%AD%E7%9A%84%E4%BD%BF%E7%94%A8/</loc>
-    <lastmod>2018-01-13T08:46:43.856Z</lastmod>
-    <data>
-        <display>
-        <title>Lex和Yacc在Windows中的使用</title>
-        <pubTime>2017-03-29T04:42:06.000Z</pubTime>
-        
-        <tag>lex</tag>
-         
-        <tag>yacc</tag>
-         
-         
-           
-             
-              <breadCrumb title="编程语言" url="https://shura.eu.org/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2016/08/06/Ubuntu%E4%B8%8AChrome%E9%97%AA%E5%B1%8F%E7%97%87%E7%8A%B6%E7%9A%84%E7%BC%93%E8%A7%A3%E4%B9%8B%E6%97%85/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
-    <data>
-        <display>
-        <title>Ubuntu上Chrome闪屏症状的缓解之旅</title>
-        <pubTime>2016-08-06T09:14:05.000Z</pubTime>
-        
-        <tag>ubuntu</tag>
-         
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
-          
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2016/07/27/%E9%95%BF%E5%9F%8E%E5%AE%BD%E5%B8%A6%E7%AD%89%E5%B0%8F%E8%BF%90%E8%90%A5%E5%95%86PPPoE%E9%A2%91%E7%B9%81%E6%8E%89%E7%BA%BF%E9%87%8D%E8%BF%9E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
-    <data>
-        <display>
-        <title>长城宽带等小运营商PPPoE频繁掉线重连解决办法</title>
-        <pubTime>2016-07-27T12:02:45.000Z</pubTime>
-        
-        <tag>瞎折腾</tag>
-         
-         
-           
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/%E6%8A%98%E8%85%BE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://shura.eu.org/2016/08/10/Android-Studio-gradle%E4%BB%A3%E7%90%86https%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
-    <data>
-        <display>
-        <title>Android Studio gradle代理https失败的解决办法</title>
-        <pubTime>2016-08-10T10:15:46.000Z</pubTime>
-        
         <tag>Android</tag>
          
         <tag>gradle</tag>
@@ -347,21 +192,45 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/07/23/Ubuntu%20%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <loc>https://shura.eu.org/2016/08/03/Bash-On-Windows-beta%E7%89%88%E9%A3%9F%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-05-22T23:59:00.000Z</lastmod>
     <data>
         <display>
-        <title>Ubuntu 使用笔记</title>
-        <pubTime>2016-07-23T09:19:15.000Z</pubTime>
+        <title>Bash On Windows beta版食用笔记</title>
+        <pubTime>2016-08-03T12:41:34.000Z</pubTime>
         
-        <tag>ubuntu</tag>
+        <tag>Linux</tag>
          
-        <tag>linux</tag>
+        <tag>windows</tag>
+         
+        <tag>bash</tag>
          
          
            
              
-              <breadCrumb title="笔记" url="https://shura.eu.org/categories/%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://shura.eu.org/2016/07/27/%E9%95%BF%E5%9F%8E%E5%AE%BD%E5%B8%A6%E7%AD%89%E5%B0%8F%E8%BF%90%E8%90%A5%E5%95%86PPPoE%E9%A2%91%E7%B9%81%E6%8E%89%E7%BA%BF%E9%87%8D%E8%BF%9E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <lastmod>2018-05-22T15:19:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>长城宽带等小运营商PPPoE频繁掉线重连解决办法</title>
+        <pubTime>2016-07-27T12:02:45.000Z</pubTime>
+        
+        <tag>长城宽带</tag>
+         
+        <tag>PPPoE</tag>
+         
+         
+           
+             
+              <breadCrumb title="宽带" url="https://shura.eu.org/categories/%E5%AE%BD%E5%B8%A6/"/>
           
         </display>
     </data>
@@ -370,20 +239,20 @@
     
   <url>
     <loc>https://shura.eu.org/2016/07/27/Python%E6%89%B9%E9%87%8F%E8%8E%B7%E5%8F%96%E4%BA%AC%E4%B8%9C%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <lastmod>2018-05-22T15:16:48.000Z</lastmod>
     <data>
         <display>
         <title>Python批量获取京东商品列表信息</title>
         <pubTime>2016-07-27T06:24:10.000Z</pubTime>
         
-        <tag>python</tag>
+        <tag>jd</tag>
          
-        <tag>瞎折腾</tag>
+        <tag>python</tag>
          
          
            
              
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/%E6%8A%98%E8%85%BE/"/>
+              <breadCrumb title="python" url="https://shura.eu.org/categories/python/"/>
           
         </display>
     </data>
@@ -392,7 +261,7 @@
     
   <url>
     <loc>https://shura.eu.org/2016/04/09/Windows%E9%85%8D%E7%BD%AECygwin%E6%88%96msys2%E6%A8%A1%E6%8B%9FLinux%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <lastmod>2018-05-22T15:12:31.000Z</lastmod>
     <data>
         <display>
         <title>Windows配置Cygwin或msys2模拟Linux终端环境</title>
@@ -405,7 +274,7 @@
          
            
              
-              <breadCrumb title="笔记" url="https://shura.eu.org/categories/%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="linux" url="https://shura.eu.org/categories/linux/"/>
           
         </display>
     </data>
@@ -413,8 +282,8 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/03/21/JAVA%E5%8F%AA%E6%9C%89%E4%BC%A0%E5%80%BC%E8%B0%83%E7%94%A8(call%20by%20value)/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <loc>https://shura.eu.org/2016/03/21/JAVA%E5%8F%AA%E6%9C%89%E4%BC%A0%E5%80%BC%E8%B0%83%E7%94%A8/</loc>
+    <lastmod>2018-05-22T15:06:27.000Z</lastmod>
     <data>
         <display>
         <title>JAVA只有传值调用(call by value)</title>
@@ -422,15 +291,10 @@
         
         <tag>java</tag>
          
-        <tag>笔记</tag>
-         
          
            
              
-              <breadCrumb title="JAVA" url="https://shura.eu.org/categories/JAVA/"/>
-          
-             
-              <breadCrumb title="笔记" url="https://shura.eu.org/categories/JAVA/%E7%AC%94%E8%AE%B0/"/>
+              <breadCrumb title="java" url="https://shura.eu.org/categories/java/"/>
           
         </display>
     </data>
@@ -438,49 +302,32 @@
 
     
   <url>
-    <loc>https://shura.eu.org/2016/08/03/Bash-On-Windows-beta%E7%89%88%E9%A3%9F%E7%94%A8%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
+    <loc>https://shura.eu.org/2016/03/09/php7.0%E4%B8%8EMysql5.7%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%BD%BF%E7%94%A8/</loc>
+    <lastmod>2018-05-22T15:01:02.000Z</lastmod>
     <data>
         <display>
-        <title>Bash On Windows beta版食用笔记</title>
-        <pubTime>2016-08-03T12:41:34.000Z</pubTime>
+        <title>php7.0与Mysql5.7的连接使用</title>
+        <pubTime>2016-03-09T13:55:01.000Z</pubTime>
         
-        <tag>bash</tag>
+        <tag>mysql</tag>
          
-        <tag>ubuntu</tag>
+        <tag>php</tag>
          
-        <tag>Windows</tag>
+        <tag>ipv6</tag>
          
          
            
              
-              <breadCrumb title="Linux" url="https://shura.eu.org/categories/Linux/"/>
-          
-             
-              <breadCrumb title="折腾" url="https://shura.eu.org/categories/Linux/%E6%8A%98%E8%85%BE/"/>
+              <breadCrumb title="教程" url="https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
     </url>
 
     
-  <url>
-    <loc>https://shura.eu.org/2016/04/20/Android-6.0-%E8%8E%B7%E5%8F%96SD%E5%8D%A1%E7%AD%89%E5%8D%B1%E9%99%A9%E6%9D%83%E9%99%90/</loc>
-    <lastmod>2018-01-13T08:46:43.855Z</lastmod>
-    <data>
-        <display>
-        <title>[小坑] Android 6.0 获取SD卡等危险权限</title>
-        <pubTime>2016-04-20T12:08:43.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-         
-           
-             
-              <breadCrumb title="Android" url="https://shura.eu.org/categories/Android/"/>
-          
-        </display>
-    </data>
-    </url>
-
+    
+    
+    
+    
+    
 </urlset>
