@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shura.eu.org/"/>
-  <updated>2018-05-23T01:18:50.000Z</updated>
+  <updated>2018-05-23T01:34:32.000Z</updated>
   <id>https://shura.eu.org/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客内容恢复</title>
+    <link href="https://shura.eu.org/2018/05/23/%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E6%81%A2%E5%A4%8D/"/>
+    <id>https://shura.eu.org/2018/05/23/博客内容恢复/</id>
+    <published>2018-05-23T01:30:37.000Z</published>
+    <updated>2018-05-23T01:34:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Wed May 23 2018 09:35:07 GMT+0800 (CST) --><h1>前言</h1><p>在vps上操作的时候误删了_post文件夹，导致博文源代码全部丢失，于是只好手动根据html内容恢复源代码，正好把一些水文删了，把一些文章的图片地址更新了一下。</p><h1>教训</h1><ol><li>不要在生产环境上用<code>rm * -R</code>。</li><li>备份是个好习惯，你值得拥有。</li><li>openvz的vps是simfs格式的文件系统，文件一旦删除很难恢复。</li></ol><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Wed May 23 2018 09:35:07 GMT+0800 (CST) --&gt;&lt;h1&gt;前言&lt;/h1&gt;&lt;p&gt;在vps上操作的时候误删了_post文件夹，导致博文源代码全部丢失，于是只好手动根据html内容恢复源代码，正好把一些水文删了，把一些
+      
+    
+    </summary>
+    
+      <category term="站点" scheme="https://shura.eu.org/categories/%E7%AB%99%E7%82%B9/"/>
+    
+    
+      <category term="linux" scheme="https://shura.eu.org/tags/linux/"/>
+    
+      <category term="手贱" scheme="https://shura.eu.org/tags/%E6%89%8B%E8%B4%B1/"/>
+    
+  </entry>
   
   <entry>
     <title>在Ubuntu 18.04 LTS 服务器上配置静态IPv6地址</title>

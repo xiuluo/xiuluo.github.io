@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title>博客内容恢复</title>
+      <link href="/2018/05/23/%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E6%81%A2%E5%A4%8D/"/>
+      <content type="html"><![CDATA[<!-- build time:Wed May 23 2018 09:35:07 GMT+0800 (CST) --><h1>前言</h1><p>在vps上操作的时候误删了_post文件夹，导致博文源代码全部丢失，于是只好手动根据html内容恢复源代码，正好把一些水文删了，把一些文章的图片地址更新了一下。</p><h1>教训</h1><ol><li>不要在生产环境上用<code>rm * -R</code>。</li><li>备份是个好习惯，你值得拥有。</li><li>openvz的vps是simfs格式的文件系统，文件一旦删除很难恢复。</li></ol><!-- rebuild by neat -->]]></content>
+      
+      <categories>
+          
+          <category> 站点 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> 手贱 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>在Ubuntu 18.04 LTS 服务器上配置静态IPv6地址</title>
       <link href="/2018/05/22/%E5%9C%A8Ubuntu-18.04-LTS%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81IPv6%E5%9C%B0%E5%9D%80/"/>
       <content type="html"><![CDATA[<!-- build time:Wed May 23 2018 09:23:49 GMT+0800 (CST) --><h1>前言</h1><p>今天南洋pt开放注册，为了挂pt，我在digitalocean的vps上安装了deluge。可是教育网挂PT基本上都是ipv6，正好digitalocean也支持ipv6，可是没想到踩到Ubuntu 18.04的坑上了。</p><h1>过程</h1><p>Ubuntu 18.04的网络接口配置默认使用NetPlan，这个新工具取代了以前用于配置Ubuntu网络接口的静态接口（/etc/network/interfaces）文件。现在必须使用/etc/netplan/*.yaml来配置Ubuntu的网络接口。</p><p>所以在digitalocean配置静态ip应该修改/etc/netplan/50-cloud-init.yaml文件，填充为一下内容：</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># This file is generated from information provided by</span></span><br><span class="line"><span class="comment"># the datasource.  Changes to it will not persist across an instance.</span></span><br><span class="line"><span class="comment"># To disable cloud-init's network configuration capabilities, write a file</span></span><br><span class="line"><span class="comment"># /etc/cloud/cloud.cfg.d/99-disable-network-config.cfg with the following:</span></span><br><span class="line"><span class="comment"># network: &#123;config: disabled&#125;</span></span><br><span class="line"><span class="attr">network:</span></span><br><span class="line"><span class="attr">    version:</span> <span class="number">2</span></span><br><span class="line"><span class="attr">    ethernets:</span></span><br><span class="line"><span class="attr">        eth0:</span></span><br><span class="line"><span class="attr">            addresses:</span></span><br><span class="line"><span class="bullet">            -</span> <span class="string">公共ipv4地址/20</span></span><br><span class="line"><span class="bullet">            -</span> <span class="string">私有ipv4地址/16</span></span><br><span class="line"><span class="bullet">            -</span> <span class="string">公共ipv6地址/64</span></span><br><span class="line"><span class="attr">            gateway4:</span> <span class="string">公共ipv4网关</span></span><br><span class="line"><span class="attr">            gateway6:</span> <span class="string">公共ipv6网关</span></span><br><span class="line"><span class="attr">            match:</span></span><br><span class="line"><span class="attr">                macaddress:</span> <span class="string">MAC地址</span></span><br><span class="line"><span class="attr">            nameservers:</span></span><br><span class="line"><span class="attr">                addresses:</span></span><br><span class="line"><span class="bullet">                -</span> <span class="number">67.207</span><span class="number">.67</span><span class="number">.2</span></span><br><span class="line"><span class="bullet">                -</span> <span class="number">67.207</span><span class="number">.67</span><span class="number">.3</span></span><br><span class="line"><span class="attr">            set-name:</span> <span class="string">eth0</span></span><br></pre></td></tr></table></figure><p>然后输入下面的命令，应用此文件：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netplan apply</span><br></pre></td></tr></table></figure><h1>效果</h1><p><img src="https://ws1.sinaimg.cn/large/77b38843gy1frkhgcx22yj20ih08gmy2.jpg" alt="digitalocean's ipv6"></p><h1>参考来源</h1><p><a href="https://websiteforstudents.com/configure-static-ip-addresses-on-ubuntu-18-04-beta/" target="_blank" rel="noopener">Configure Static IP Addresses on Ubuntu 18.04 LTS Server – Website for Students</a></p><!-- rebuild by neat -->]]></content>
