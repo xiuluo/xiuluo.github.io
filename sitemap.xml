@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shura.eu.org/music/index.html</loc>
+    
+    <lastmod>2019-06-06T11:58:57.487Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/2018/12/06/ipv6-NAT%E5%90%8E%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</loc>
+    
+    <lastmod>2019-06-06T11:58:10.055Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/2018/05/22/%E5%9C%A8Ubuntu-18.04-LTS%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81IPv6%E5%9C%B0%E5%9D%80/</loc>
     
     <lastmod>2019-04-25T14:16:21.423Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://shura.eu.org/2018/06/19/%E5%90%88%E8%82%A5%E7%A7%BB%E5%8A%A8IPTV%E6%8A%93%E5%8C%85%E7%9C%9F%E5%AE%9E%E5%9C%B0%E5%9D%80/</loc>
     
     <lastmod>2019-04-25T14:14:41.548Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/2018/12/06/ipv6-NAT%E5%90%8E%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</loc>
-    
-    <lastmod>2019-04-11T15:59:35.978Z</lastmod>
     
   </url>
   
@@ -131,13 +138,6 @@
     <loc>https://shura.eu.org/about/index.html</loc>
     
     <lastmod>2018-05-16T03:09:30.852Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/music/index.html</loc>
-    
-    <lastmod>2018-05-16T02:57:06.792Z</lastmod>
     
   </url>
   
