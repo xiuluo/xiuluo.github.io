@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shura.eu.org/about/index.html</loc>
+    
+    <lastmod>2019-06-08T10:19:55.907Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/music/index.html</loc>
     
     <lastmod>2019-06-06T12:16:39.873Z</lastmod>
@@ -131,13 +138,6 @@
     <loc>https://shura.eu.org/2016/03/09/php7.0%E4%B8%8EMysql5.7%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2018-05-22T15:01:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/about/index.html</loc>
-    
-    <lastmod>2018-05-16T03:09:30.852Z</lastmod>
     
   </url>
   
