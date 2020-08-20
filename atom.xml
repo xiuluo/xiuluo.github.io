@@ -6,7 +6,7 @@
   <link href="https://shura.eu.org/atom.xml" rel="self"/>
   
   <link href="https://shura.eu.org/"/>
-  <updated>2020-08-20T12:39:00.713Z</updated>
+  <updated>2020-08-20T13:01:41.395Z</updated>
   <id>https://shura.eu.org/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://shura.eu.org/2020/08/20/hexo%E9%9B%86%E6%88%90simiki%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAWiki/"/>
     <id>https://shura.eu.org/2020/08/20/hexo%E9%9B%86%E6%88%90simiki%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAWiki/</id>
     <published>2020-08-20T12:19:00.000Z</published>
-    <updated>2020-08-20T12:39:00.713Z</updated>
+    <updated>2020-08-20T13:01:41.395Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>前言</h1><p>一直想搭建个个人Wiki，放一些备忘的东西，苦于没有遇到合适的工具。今天无意之间在别人的博客看到了这个<a href="http://simiki.org/zh-docs/">simiki</a>，和hexo一样，都是基于Markdown的静态系统。于是折腾了一下，将这两者结合了起来。</p><h1>前提条件</h1><ul><li>Hexo目录：<code>D:\hexo</code></li><li>Wiki目录：<code>D:\wiki</code></li><li>本地系统：<code>Windows 10</code></li></ul><h1>具体步骤</h1><ul><li>按照simiki文档进行配置，确保output目录里有生成后的静态文件。</li><li>修改Wiki目录中的_config.yml文件，加入一行内容<code>root: /wiki</code></li><li>使用<code>mklink /j D:\hexo\source\wiki D:\wiki\output</code>，将Wiki目录软链接进hexo目录中。</li><li>修改hexo目录中的_config.yml文件，将<code>skip_render:&quot;&quot;</code>替换为<code>skip_render: &quot;wiki/**/*&quot;</code>，否则hexo会渲染wiki目录中的文件，导致wiki中出现两种css。</li></ul><h1>效果</h1><blockquote><p><a href="https://shura.eu.org/wiki">https://shura.eu.org/wiki</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>前言</h1><p>一直想搭建个个人Wiki，放一些备忘的东西，苦于没有遇到合适的工具。今天无意之间在别人的博客看到了这个<a href="http://simiki.org/zh-docs/">simiki</a>，和hexo一样，都是基于Markdown的静态系统。于是折腾了一下，将这两者结合了起来。</p><h1>前提条件</h1><ul><li>Hexo目录：<code>D:\hexo</code></li><li>Wiki目录：<code>D:\wiki</code></li><li>本地系统：<code>Windows 10</code></li></ul><h1>具体步骤</h1><ul><li>按照simiki文档进行配置，确保output目录里有生成后的静态文件。</li><li>修改Wiki目录中的_config.yml文件，加入一行内容<code>root: /wiki</code></li><li>使用<code>mklink /j D:\hexo\source\wiki D:\wiki\output</code>，将Wiki目录软链接进hexo目录中。</li><li>修改hexo目录中的_config.yml文件，将<code>skip_render:&quot;&quot;</code>替换为<code>skip_render: &quot;wiki/**/*&quot;</code>，否则hexo会渲染wiki目录中的文件，导致wiki中出现两种css。</li><li>使用<code>hexo clean &amp; hexo generate &amp; cd d:/wiki &amp; simiki g &amp; cd d:/hexo &amp; hexo d</code>，一键部署hexo和wiki。</li></ul><h1>效果</h1><blockquote><p><a href="https://shura.eu.org/wiki">https://shura.eu.org/wiki</a></p></blockquote>]]></content>
     
     
     <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; class=&quot;aplayer-secondary-script-marker&quot;&gt;&lt;/script&gt;&lt;script class=&quot;meting-secondary-script-marker&quot; src=&quot;\assets\js\Meting.min.js&quot;&gt;&lt;/script&gt;&lt;h1&gt;前言&lt;/h1&gt;
