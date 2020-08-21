@@ -179,7 +179,7 @@
 
   <url>
     <loc>https://shura.eu.org/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -187,245 +187,245 @@
   
   <url>
     <loc>https://shura.eu.org/tags/Linux/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/windows/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/bash/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/Android/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/gradle/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/windows/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/bash/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/linux/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/shell/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/java/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/jd/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/python/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/cygwin/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/wiki/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/github/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/ipv6/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/nat/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/openwrt/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/hash/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/mysql/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/php/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/hash/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/openvz/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/tb-tun/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/travis-ci/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/%E6%89%8B%E8%B4%B1/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/hexo/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/github-pages/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/ubuntu/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/bbr/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/tcpdump/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/wireshark/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/iptv/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/%E5%90%88%E8%82%A5%E7%A7%BB%E5%8A%A8/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/ubuntu/</loc>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/bbr/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/ffmpeg/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/%E9%95%BF%E5%9F%8E%E5%AE%BD%E5%B8%A6/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/tags/PPPoE/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -433,85 +433,85 @@
 
   
   <url>
-    <loc>https://shura.eu.org/categories/Linux/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <loc>https://shura.eu.org/categories/Android/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shura.eu.org/categories/Android/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <loc>https://shura.eu.org/categories/Linux/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/linux/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/java/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/python/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/tools/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2020-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/github/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/%E7%AB%99%E7%82%B9/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://shura.eu.org/categories/%E5%AE%BD%E5%B8%A6/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
