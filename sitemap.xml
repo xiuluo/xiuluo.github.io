@@ -277,20 +277,6 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/mysql/</loc>
-    <lastmod>2020-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/php/</loc>
-    <lastmod>2020-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shura.eu.org/tags/ipv6/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
@@ -306,6 +292,20 @@
   
   <url>
     <loc>https://shura.eu.org/tags/openwrt/</loc>
+    <lastmod>2020-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/mysql/</loc>
+    <lastmod>2020-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/php/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -368,6 +368,20 @@
   </url>
   
   <url>
+    <loc>https://shura.eu.org/tags/ubuntu/</loc>
+    <lastmod>2020-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/bbr/</loc>
+    <lastmod>2020-09-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/tags/tcpdump/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
@@ -390,20 +404,6 @@
   
   <url>
     <loc>https://shura.eu.org/tags/%E5%90%88%E8%82%A5%E7%A7%BB%E5%8A%A8/</loc>
-    <lastmod>2020-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/ubuntu/</loc>
-    <lastmod>2020-09-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/bbr/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -475,14 +475,14 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://shura.eu.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shura.eu.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://shura.eu.org/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
