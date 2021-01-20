@@ -193,14 +193,14 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/Android/</loc>
+    <loc>https://shura.eu.org/tags/windows/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/gradle/</loc>
+    <loc>https://shura.eu.org/tags/bash/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -215,20 +215,6 @@
   
   <url>
     <loc>https://shura.eu.org/tags/shell/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/windows/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/bash/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -270,6 +256,27 @@
   </url>
   
   <url>
+    <loc>https://shura.eu.org/tags/Android/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/gradle/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/cygwin/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/tags/ipv6/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -291,7 +298,14 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/cygwin/</loc>
+    <loc>https://shura.eu.org/tags/hash/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -333,14 +347,7 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/hash/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/tags/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
+    <loc>https://shura.eu.org/tags/%E6%89%8B%E8%B4%B1/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -403,13 +410,6 @@
   </url>
   
   <url>
-    <loc>https://shura.eu.org/tags/%E6%89%8B%E8%B4%B1/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://shura.eu.org/tags/ffmpeg/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
@@ -433,7 +433,7 @@
 
   
   <url>
-    <loc>https://shura.eu.org/categories/Android/</loc>
+    <loc>https://shura.eu.org/categories/Linux/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -441,13 +441,6 @@
   
   <url>
     <loc>https://shura.eu.org/categories/linux/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/categories/Linux/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -475,7 +468,21 @@
   </url>
   
   <url>
+    <loc>https://shura.eu.org/categories/Android/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shura.eu.org/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2021-01-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://shura.eu.org/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -490,13 +497,6 @@
   
   <url>
     <loc>https://shura.eu.org/categories/github/</loc>
-    <lastmod>2021-01-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://shura.eu.org/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/</loc>
     <lastmod>2021-01-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
